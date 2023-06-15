@@ -46,6 +46,25 @@ body {
     font-weight: 500;
 }
 
+#authors {
+    .card img {
+        margin-top: -55px;
+    }
+    .fa-brands {
+        color: #3292a6;
+    }
+    .card:hover {
+        background-color: #3292a6;
+        color: #fff;
+        .fa-brands {
+            color: #fff;
+        }
+    }
+}
+
+footer {
+    background-color: #3292a6;
+}
 
 @media (max-width: 768px) {
     #showcase {
